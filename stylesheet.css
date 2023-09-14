@@ -19,10 +19,10 @@ html{
 body{
     background-color: #f7f6d7;
     color:#111818;
-    margin: 0;
+    margin: 10%;
     padding: 0;
     font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 180%;
     line-height: 1.5;
 
 }
@@ -31,14 +31,19 @@ body{
      list-style: none;                   /*get rid of the styling (i.e. bullets) in the list*/
      }
      ul li {                                 /*This section styles the list items (i.e. menu items) */
-     font: bold #f7f6d7  22px/38px 'Segoe UI', Tahoma, Verdana, sans-serif; /*change the font size and type*/
+     font: bold #f7f6d7 'Segoe UI', Tahoma, Verdana, sans-serif; /*change the font size and type*/
+     font-size: 123%;
      Color: #f7f6d7;
      display: inline-block;            /*display list items in one line (makes list horizontal)*/
      position: relative;                /*Will allow submenus to move, letting them open immediately below the different menu items (i.e. a location on the screen relative to the menu item chosen) */
-     padding: 25px 25px;           /*Add padding around the text*/
+     padding: 24px 24px;           /*Add padding around the text*/
      background: #7a5571;              /*Change background color of the menu items*/
      cursor: pointer;                  /*Change the mouse cursor to a pointer even if the text is not a link (useful for dropdown menus)*/
-     border-radius: 15%;
+     border-radius: 10%;
+     margin-bottom: 5%;
+     margin-top: 0%;
+
+
      }
      ul li:hover {                        /*This section styles the menu items when hovered (rolled) over*/
      background: #7a5571;             /*Change the background color of list item when hovered over*/
@@ -47,9 +52,9 @@ body{
      ul li ul {                            /*This section styles the unordered list which will become the submenu*/
      padding: 0;                       /*Get rid of any default padding*/
      position: absolute;             /*Works in conjunction with the earlier relative positioning code. Distinguishes submenu items from menu items and forces submenus to open in the same position for each menu item (i.e. an absolute position immediately below the menu item)*/
-     top: 48px;                        /*Add a little space between the menu and submenu*/
+     top: 100%;                        /*Add a little space between the menu and submenu*/
      left: -10000px;                 /*Sets submenu way offscreen on the left side so it's hidden from view*/
-     width: 150px;                  /*Set the width for the submenu*/
+     width: 110%;                  /*Set the width for the submenu*/
      }
      ul li ul li {                        /*This section styles nested list items (i.e. submenu items) */
      background: #7a5571;           /*Set background color for submenu items*/
@@ -86,16 +91,21 @@ a:hover{
     color:#000000;
 }
 h1{
-    font-size: 75px;
+    font-size: 400%;
+    margin-top: -10%;
 }
 h2{
-    font-size: 50px;
-    margin: 0;
+    font-size: 150%;
+    margin-top: -5%;
     text-shadow: 0 0 3px #078C61, 0 0 5px #7a5571;
 }
 h5{
     margin: 0;
     font-size: 150%;
+}
+img{
+    float:left;
+    padding-right: 3%;
 }
 footer{
     text-align: center;
